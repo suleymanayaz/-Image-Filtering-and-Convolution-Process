@@ -5,6 +5,7 @@ float FilterArray[3][3]={{1,0,-1},
 						 {2,0,-2},
 						 {1,0,-1}
 						}
+// FilterArray is matris. 
 int main( void ){
  PGMFormattedImage* newPGMFormattedImage = ( PGMFormattedImage* )malloc( sizeof( PGMFormattedImage ) );
  readPGMFormattedImage( newPGMFormattedImage );
